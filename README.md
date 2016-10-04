@@ -5,7 +5,7 @@
 [![Dependencies Status](https://david-dm.org/meanjs/mean.svg)](https://david-dm.org/meanjs/mean)
 [![Coverage Status](https://coveralls.io/repos/meanjs/mean/badge.svg?branch=master&service=github)](https://coveralls.io/github/meanjs/mean?branch=master)
 
-MEAN.JS is a full-stack JavaScript open-source solution, which provides a solid starting point for [MongoDB](http://www.mongodb.org/), [Node.js](http://www.nodejs.org/), [Express](http://expressjs.com/), and [AngularJS](http://angularjs.org/) based applications. The idea is to solve the common issues with connecting those frameworks, build a robust framework to support daily development needs, and help developers use better practices while working with popular JavaScript components.
+TODO is a team-based website for tracking To-Do items for the team.  It is built using the MEAN.JS full-stack JavaScript open-source solution, which provides a solid starting point for [MongoDB](http://www.mongodb.org/), [Node.js](http://www.nodejs.org/), [Express](http://expressjs.com/), and [AngularJS](http://angularjs.org/) based applications. The idea is to solve the common issues with connecting those frameworks, build a robust framework to support daily development needs, and help developers use better practices while working with popular JavaScript components.
 
 ## Before You Begin
 Before you begin we recommend you read about the basic building blocks that assemble a MEAN.JS application:
@@ -26,34 +26,10 @@ Make sure you have installed all of the following prerequisites on your developm
 $ npm install -g bower
 ```
 
-## Downloading MEAN.JS
-There are several ways you can get the MEAN.JS boilerplate:
-
-### Cloning The GitHub Repository
-The recommended way to get MEAN.js is to use git to directly clone the MEAN.JS repository:
-
-```bash
-$ git clone https://github.com/meanjs/mean.git meanjs
-```
-
-This will clone the latest version of the MEAN.JS repository to a **meanjs** folder.
-
-### Downloading The Repository Zip File
-Another way to use the MEAN.JS boilerplate is to download a zip copy from the [master branch on GitHub](https://github.com/meanjs/mean/archive/master.zip). You can also do this using the `wget` command:
-
-```bash
-$ wget https://github.com/meanjs/mean/archive/master.zip -O meanjs.zip; unzip meanjs.zip; rm meanjs.zip
-```
-
-Don't forget to rename **mean-master** after your project name.
-
-### Yo Generator
-Another way would be to use the [Official Yo Generator](http://meanjs.org/generator.html), which generates a copy of the MEAN.JS 0.4.x boilerplate and supplies an application generator to ease your daily development cycles.
-
 ## Quick Install
-Once you've downloaded the boilerplate and installed all the prerequisites, you're just a few steps away from starting to develop your MEAN application.
+Once you've downloaded the application and installed all the prerequisites, you're just a few steps away from starting the To-Do application.
 
-The boilerplate comes pre-bundled with a `package.json` and `bower.json` files that contain the list of modules you need to start your application.
+The application comes pre-bundled with a `package.json` and `bower.json` files that contain the list of modules you need to start your application.
 
 To install the dependencies, run this in the application folder from the command-line:
 
@@ -149,7 +125,7 @@ $ npm run test:client
 
 ## Running your application with Gulp
 
-The MEAN.JS project integrates Gulp as build tools and task automation.
+The TODO (MEAN.JS) project integrates Gulp as build tools and task automation.
 
 We have wrapped Gulp tasks with npm scripts so that regardless of the build tool running the project is transparent to you.
 
